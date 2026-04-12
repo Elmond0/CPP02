@@ -6,7 +6,7 @@
 /*   By: elmondo <elmondo@student.42firenze.it>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/02 12:00:00 by elmondo           #+#    #+#             */
-/*   Updated: 2026/04/02 11:50:35 by elmondo          ###   ########.fr       */
+/*   Updated: 2026/04/12 13:04:28 by elmondo          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,6 +31,8 @@ int main(void)
 	std::cout << "b is " << b.toInt() << " as integer" << std::endl;
 	std::cout << "c is " << c.toInt() << " as integer" << std::endl;
 	std::cout << "d is " << d.toInt() << " as integer" << std::endl;
+
+	std::cout << "b is " << b.getRawBits() << " as bits" << std::endl;
 
 	return 0;
 }

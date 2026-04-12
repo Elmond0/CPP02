@@ -6,7 +6,7 @@
 /*   By: elmondo <elmondo@student.42firenze.it>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/01 16:55:03 by elmondo           #+#    #+#             */
-/*   Updated: 2026/04/01 16:55:07 by elmondo          ###   ########.fr       */
+/*   Updated: 2026/04/12 12:37:48 by elmondo          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ private:
 public:
 	Fixed(void);
 	Fixed(const Fixed &other);
-	Fixed &operator=(const Fixed &other);
+	Fixed& operator=(const Fixed &other);
 	~Fixed(void);
 
 	int getRawBits(void) const;
